@@ -53,12 +53,11 @@ struct ProductoListView: View {
             }
         }
     }
-    
+    //los iconos para dificultad
     func icon(for difficulty: String) -> String {
         switch difficulty {
         case "easy": return "arrow.up.circle.fill"
         case "medium": return "arrow.up.down.circle.fill"
-        case "hard": return "arrow.up.down.circlepath.fill"
         default: return "questionmark"
         }
     }

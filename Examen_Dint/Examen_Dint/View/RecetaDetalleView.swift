@@ -39,6 +39,7 @@ struct RecetaDetalleView: View {
                    
                 }
             }
+            //para mostrar en la vista de detalle como titulo el nombre de la receta
             .navigationTitle(recetas.name)
             .navigationBarTitleDisplayMode(.inline)
         }

@@ -4,7 +4,7 @@ class RecetaViewModel: ObservableObject {
     @Published var recetas: [Receta] = []
     @Published var isLoading: Bool = false
     @Published var errorMessage: String? = nil
-    @Published var total: Int = 0
+    @Published var total: Int = 0//quiero mostrar el numero de recetas que hay en cada categoria
 
     
     func fetchProducts(difficulty: String) {
